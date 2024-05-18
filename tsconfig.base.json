@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@monorepo-example/ui-common": ["packages/ui/common/src/index.ts"],
+      "nx-plugin": ["plugins/nx-plugin/src/index.ts"],
       "remote-1/Module": ["apps/remote-1/src/remote-entry.ts"],
       "remote-2/Module": ["apps/remote-2/src/remote-entry.ts"],
       "remote-3/Module": ["apps/remote-3/src/remote-entry.ts"]

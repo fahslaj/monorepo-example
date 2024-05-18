@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "less-to-css": {
+      "factory": "./src/generators/less-to-css/generator",
+      "schema": "./src/generators/less-to-css/schema.json",
+      "description": "less-to-css generator"
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import { Suspense } from 'react';
-import { PlaceholderPage } from '@monorepo-example/ui-placeholder-page';
+import { PlaceholderPage } from 'layout/placeholder';
 import { default as Remote1 } from 'remote-1/Module';
 import { default as Remote2 } from 'remote-2/Module';
 import { default as Remote3 } from 'remote-3/Module';

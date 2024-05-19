@@ -19,7 +19,8 @@
         "assets": ["apps/remote-1/src/favicon.ico", "apps/remote-1/src/assets"],
         "styles": ["apps/remote-1/src/styles.css"],
         "scripts": [],
-        "webpackConfig": "apps/remote-1/webpack.config.ts"
+        "webpackConfig": "apps/remote-1/webpack.config.ts",
+        "postcssConfig": "apps/remote-1/postcss.config.js"
       },
       "configurations": {
         "development": {

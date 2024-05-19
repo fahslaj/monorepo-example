@@ -1,14 +1,7 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
+import { PlaceholderPage } from '@monorepo-example/ui-placeholder-page';
 
 export function App() {
-  return (
-    <div>
-      <NxWelcome title="remote-3" />
-    </div>
-  );
+  return <PlaceholderPage title="Remote 3" />;
 }
 
 export default App;

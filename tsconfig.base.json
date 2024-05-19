@@ -15,7 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@monorepo-example/ui-placeholder-page": [
+        "packages/ui/placeholder-page/src/index.ts"
+      ],
       "@monorepo-example/ui-common": ["packages/ui/common/src/index.ts"],
+      "@monorepo-example/ui-header": ["packages/ui/header/src/index.ts"],
       "nx-plugin": ["plugins/nx-plugin/src/index.ts"],
       "remote-1/Module": ["apps/remote-1/src/remote-entry.ts"],
       "remote-2/Module": ["apps/remote-2/src/remote-entry.ts"],

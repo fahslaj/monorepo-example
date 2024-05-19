@@ -1,0 +1,16 @@
+{
+  "name": "layout-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/layout-e2e/src",
+  "implicitDependencies": ["layout"],
+  "targets": {
+    "e2e": {
+      "executor": "@nx/playwright:playwright",
+      "outputs": ["{workspaceRoot}/dist/.playwright/apps/layout-e2e"],
+      "options": {
+        "config": "apps/layout-e2e/playwright.config.ts"
+      }
+    }
+  }
+}

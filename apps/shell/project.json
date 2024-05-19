@@ -19,7 +19,8 @@
         "assets": ["apps/shell/src/favicon.ico", "apps/shell/src/assets"],
         "styles": ["apps/shell/src/styles.css"],
         "scripts": [],
-        "webpackConfig": "apps/shell/webpack.config.ts"
+        "webpackConfig": "apps/shell/webpack.config.ts",
+        "postcssConfig": "apps/shell/postcss.config.js"
       },
       "configurations": {
         "development": {

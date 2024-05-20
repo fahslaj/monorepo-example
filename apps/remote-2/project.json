@@ -89,6 +89,9 @@
           "buildTarget": "remote-2:build:production"
         }
       }
+    },
+    "echo": {
+      "command": "echo hello"
     }
   }
 }

@@ -42,6 +42,7 @@
       }
     },
     "@nx/webpack:webpack": {
+      "cache": true,
       "inputs": [
         "production",
         "^production",
@@ -82,5 +83,6 @@
         "extensions": ["ts", "tsx", "js", "jsx", "html", "vue"]
       }
     }
-  ]
+  ],
+  "nxCloudAccessToken": "NzVjYTIxMGYtZDc0ZC00N2YwLTk4OGEtNGMxMWU3NDFiMmVifHJlYWQtd3JpdGU="
 }
